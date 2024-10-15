@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicoly Lima | Portfolio </title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Nicoly De Lima, São Paulo- SP, Desenvolvedora Front-end.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/Nicoly-Lima" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/nicoly-lima-a97b9b1b8" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/_limanicoly_/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/piano.jpg" alt="Simulador de Piano">
+        <div class="card__body">
+          <h3 class="card__title">Simulador de Piano</h3>
+          <p class="card__description">Piano Virtual</p>
+          <ul class="card__list">
+            <li class="card__item">simulador de piano interativo que permite aos usuários tocar músicas usando as teclas do próprio teclado do computador. Com uma interface intuitiva e um design amigável, os usuários podem experimentar a sensação de tocar piano digitalmente, praticando suas habilidades musicais de forma divertida e acessível. Ideal para iniciantes e amantes da música que querem explorar o mundo do piano sem a necessidade de um instrumento físico.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Html5.svg" alt="Logo Html5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo CSS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/javascript.svg" alt="Logo Javascript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://nicoly-lima.github.io/Piano-Virtual/" class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+            </button> 
+            <a href="https://github.com/Nicoly-Lima/Piano-Virtual.git" class="btn">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/mundoinvertido.jpg" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">Mundo Invertido</h3>
+          <p class="card__description">Landing Page Mundo Invertido</p>
+          <ul class="card__list">
+            <li class="card__item">Explore o Mundo Invertido! Este projeto é uma impressionante página de destino inspirada no mundo sombrio e misterioso da sua série de ficção científica favorita. O mesmo apresenta elementos de design únicos e recursos interativos.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Html5.svg" alt="Logo Html5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.svg" alt="Logo CSS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/javascript.svg" alt="Logo Javascript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://nicoly-lima.github.io/Landing-Page-no-Mundo-Invertido/" class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/Nicoly-Lima/Landing-Page-no-Mundo-Invertido.git" class="btn">
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Nicoly-Lima">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/Nicoly.jpeg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Olá, meu nome é Nicoly de Lima, tenho 21 anos. Sou desenvolvedora Front-end apaixonado por criar experiências digitais inovadoras e funcionais. Com expertise em HTML, CSS e JavaScript. Quando não estou codificando, gosto de explorar novas tecnologias e aprimorar minhas habilidades. Vamos construir algo incrível juntos!
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Basico | Português: Nativo </span>
+        </div>
+        <div class="description__buttons">
+            <button class="btn btn--primary">
+              <a href="https://www.linkedin.com/in/nicoly-lima-a97b9b1b8" target="_blank">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <span>Fev 2022 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>FATEC Ferraz de Vasconcelos</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Suporte de TI</h4>
+          <span>Etec CEPAM, Julho 2023 - Fevereiro 2024</span>
+          <ul class="about__list">
+            <li class="about__item">Auxílio na elaboração e coleta de dados de pesquisas e relatorios;</li>
+            <li class="about__item">Suporte a operação de microcomputadores e equipamentos de videoconferência;</li>
+            <li class="about__item">Instalação de equipamentos de informatica</li>
+            <li class="about__item">Auxílio a Alunos,Professores e demais funcionarios da instituição no uso de computadores</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Out 2024. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Contribuindo em um Projeto Open Source no GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Out 2024. 1h.
+              </p>
+              <p>
+                Lab prático sobre colaboração em projetos de código aberto.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Getting started- create and manage cloud resources </span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Google cloud Skills Boost. Out 2023.
+              </p>
+              <p>
+                Google Cloud Skills Boost ensina a configurar máquinas virtuais, gerenciar armazenamento e bases de dados, e usar ferramentas de desenvolvimento e operações.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Google cloud computing foundations: cloud computing fundamentals</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Google cloud Skills Boost. Out 2023.
+              </p>
+              <p>
+                O curso oferece uma introdução abrangente aos conceitos e tecnologias de computação em nuvem. Durante o curso, os participantes aprendem os fundamentos da infraestrutura de nuvem, big data e machine learning.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Partner: NDG Linux Unhatched</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Cisco. Set 2023. 8h
+              </p>
+              <p>
+                conceitos básicos de instalação e configuração de software Linux, além de introduzir o comando Linux
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Get Connected</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Cisco. Abr 2023.
+              </p>
+              <p>
+                introdução aos conceitos básicos de tecnologia da informação e comunicação. Ele ajuda os participantes a entenderem como os dispositivos digitais funcionam e como se conectar à Internet de forma segura e eficaz.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Nicoly-Lima" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/nicoly-lima-a97b9b1b8" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/_limanicoly_/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:limanicoly338@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">limanicoly338@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Portfólio desenvolvido por Nicoly de Lima
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
