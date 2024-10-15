@@ -10,4 +10,4 @@
 ## **Acessar Página**
 
 Clique no link para acessar a página:
-https://nicoly-lima.github.io/
+https://nicoly-lima.github.io/portfolio-website/
